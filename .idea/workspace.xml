@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c4463fb-9a63-4b37-97ab-6eab717939c2" name="Changes" comment="" />
+    <list default="true" id="1c4463fb-9a63-4b37-97ab-6eab717939c2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/sparta/msa_exam/auth/AuthConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/sparta/msa_exam/auth/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/sparta/msa_exam/auth/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/auth/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/resources/application.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +55,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -81,7 +96,7 @@
     "Spring Boot.ProductApplication.executor": "Run",
     "Spring Boot.ProductApplication:19094.executor": "Run",
     "Spring Boot.ServerApplication.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "auth",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/sparta/msa-exercise",
     "node.js.detected.package.eslint": "true",
@@ -110,7 +125,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServerApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="auth.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.msa_exam.auth.AuthApplication" />
@@ -180,7 +195,7 @@
       <option name="presentableId" value="Default" />
       <updated>1723171535626</updated>
       <workItem from="1723171536617" duration="3047000" />
-      <workItem from="1723174667426" duration="348000" />
+      <workItem from="1723174667426" duration="5842000" />
     </task>
     <servers />
   </component>

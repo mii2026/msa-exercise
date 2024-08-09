@@ -14,8 +14,8 @@ spring:
           uri: lb://product-service
           predicates:
             - Path=/product/**
-        - id: order-service
-          uri: lb://order-service
+        - id: auth-service
+          uri: lb://auth-service
           predicates:
             - Path=/auth/**
       discovery:
