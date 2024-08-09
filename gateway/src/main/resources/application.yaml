@@ -1,0 +1,32 @@
+spring:
+  main:
+    web-application-type: reactive
+  application:
+    name: gateway-service
+  cloud:
+    gateway:
+      routes:
+        - id: order-service
+          uri: lb://order-service
+          predicates:
+            - Path=/order/**
+        - id: product-service
+          uri: lb://product-service
+          predicates:
+            - Path=/product/**
+        - id: order-service
+          uri: lb://order-service
+          predicates:
+            - Path=/auth/**
+      discovery:
+        locator:
+          enabled: true
+
+server:
+  port: 19091
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:19090/eureka/
