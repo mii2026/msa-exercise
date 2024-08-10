@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c4463fb-9a63-4b37-97ab-6eab717939c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/core/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/poduct/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/poduct/ProductRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/poduct/ProductResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/poduct/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/product/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/poduct/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/poduct/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/poduct/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/poduct/ProductService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +193,7 @@
       <updated>1723171535626</updated>
       <workItem from="1723171536617" duration="3047000" />
       <workItem from="1723174667426" duration="5842000" />
-      <workItem from="1723305733633" duration="5570000" />
+      <workItem from="1723305733633" duration="6234000" />
     </task>
     <servers />
   </component>
