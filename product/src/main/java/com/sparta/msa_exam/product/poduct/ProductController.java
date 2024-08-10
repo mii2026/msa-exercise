@@ -31,4 +31,9 @@ public class ProductController {
         return ResponseEntity.ok(productService.getProducts(pageable));
     }
 
+    @GetMapping("/{id}")
+    public ResponseEntity<?> getProduct(@PathVariable Long id) {
+        return ResponseEntity.ok(productService.getProduct(id));
+    }
+
 }
