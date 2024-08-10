@@ -122,7 +122,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServerApplication">
+  <component name="RunManager" selected="Spring Boot.ProductApplication">
     <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="auth.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sparta.msa_exam.auth.AuthApplication" />
@@ -193,7 +193,7 @@
       <updated>1723171535626</updated>
       <workItem from="1723171536617" duration="3047000" />
       <workItem from="1723174667426" duration="5842000" />
-      <workItem from="1723305733633" duration="7312000" />
+      <workItem from="1723305733633" duration="7956000" />
     </task>
     <servers />
   </component>
