@@ -1,4 +1,4 @@
-package com.sparta.msa_exam.product.core;
+package com.sparta.msa_exam.product.core.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -12,14 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 public class ProductController {
 
-    @Value("${server.port}")
-    private String serverPort;
     private final ProductService productService;
-
-    @ModelAttribute
-    public void setResponseHeader(HttpServletResponse response) {
-        response.setHeader("Server-Port", serverPort);
-    }
 
     @PostMapping
     public ResponseEntity<?> createProduct(@RequestBody ProductRequestDto requestDto) {

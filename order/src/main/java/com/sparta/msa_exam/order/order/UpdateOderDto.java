@@ -1,4 +1,4 @@
-package com.sparta.msa_exam.order.Order;
+package com.sparta.msa_exam.order.order;
 
 import lombok.Data;
 

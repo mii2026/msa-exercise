@@ -1,4 +1,4 @@
-package com.sparta.msa_exam.gateway;
+package com.sparta.msa_exam.gateway.filter;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.io.Decoders;
@@ -19,6 +19,9 @@ public class AuthFilter implements GlobalFilter {
     @Value("${service.jwt.secret-key}")
     private String secretKey;
 
+    @Value("${server.port}")
+    private String serverPort;
+
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
         String path = exchange.getRequest().getURI().getPath();
@@ -28,7 +31,7 @@ public class AuthFilter implements GlobalFilter {
 
         String token = extractToken(exchange);
         if(token == null || !validateToken(token)) {
-            exchange.getResponse().getHeaders().add("Server-Port", "19091");
+            exchange.getResponse().getHeaders().add("Server-Port", serverPort);
             exchange.getResponse().setStatusCode(HttpStatus.UNAUTHORIZED);
             return exchange.getResponse().setComplete();
         }

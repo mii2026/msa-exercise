@@ -1,4 +1,4 @@
-package com.sparta.msa_exam.order.Order;
+package com.sparta.msa_exam.order.order;
 
 import com.sparta.msa_exam.order.core.client.ProductClient;
 import com.sparta.msa_exam.order.core.client.ProductResponseDto;
