@@ -22,7 +22,7 @@ public class AuthFilter implements GlobalFilter {
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
         String path = exchange.getRequest().getURI().getPath();
-        if(path.equals("/auth/signIn")) {
+        if(path.equals("/auth/signIn") || path.equals("/auth/signUp")) {
             return chain.filter(exchange);
         }
 
