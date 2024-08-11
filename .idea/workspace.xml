@@ -5,22 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c4463fb-9a63-4b37-97ab-6eab717939c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/Order/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/Order/OrderProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/Order/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/Order/OrderRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/Order/OrderResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/Order/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/core/client/ProductClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/core/client/ProductResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/core/domain/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/core/domain/OrderProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/order/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/Order/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/Order/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/Order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/Order/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/Order/UpdateOderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/Order/UpdateOderDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/core/client/ProductClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/core/client/ProductClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/poduct/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/poduct/ProductService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +202,7 @@
       <workItem from="1723171536617" duration="3047000" />
       <workItem from="1723174667426" duration="5842000" />
       <workItem from="1723305733633" duration="10669000" />
-      <workItem from="1723354379158" duration="7784000" />
+      <workItem from="1723354379158" duration="11906000" />
     </task>
     <servers />
   </component>

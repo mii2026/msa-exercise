@@ -40,7 +40,7 @@ public class ProductService {
     @Cacheable(cacheNames = "productCache", key = "args[0]")
     public ProductResponseDto getProduct(Long id) {
         Product product = productRepository.findById(id)
-                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Product not found or has been deleted"));
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.BAD_REQUEST, "Product not found or has been deleted"));
         return new ProductResponseDto(product);
     }
 }

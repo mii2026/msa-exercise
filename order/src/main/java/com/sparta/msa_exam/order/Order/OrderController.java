@@ -25,4 +25,10 @@ public class OrderController {
         return ResponseEntity.ok(orderService.createOrder(requestDto));
     }
 
+    @PutMapping("/{orderId}")
+    public ResponseEntity<?> updateOrder(@PathVariable Long orderId,
+                                         @RequestBody UpdateOderDto requestDto) {
+        return ResponseEntity.ok(orderService.updateOrder(orderId, requestDto.getProduct_id()));
+    }
+
 }
