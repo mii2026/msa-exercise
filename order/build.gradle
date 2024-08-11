@@ -33,6 +33,7 @@ dependencies {
 	implementation 'io.github.openfeign:feign-micrometer'
 	implementation 'io.zipkin.reporter2:zipkin-reporter-brave'
 
+	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 	runtimeOnly 'org.hsqldb:hsqldb'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 

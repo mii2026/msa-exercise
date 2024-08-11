@@ -5,6 +5,8 @@ import com.sparta.msa_exam.order.core.client.ProductResponseDto;
 import com.sparta.msa_exam.order.core.domain.Order;
 import com.sparta.msa_exam.order.core.domain.OrderProduct;
 import lombok.RequiredArgsConstructor;
+import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -24,6 +26,7 @@ public class OrderService {
     private final ProductClient productClient;
 
     @Transactional
+    @CachePut(cacheNames = "orderCache", key = "#result.order_id")
     public OrderResponseDto createOrder(OrderRequestDto requestDto) {
         Set<Long> productIds = productClient.getProduct().stream()
                 .map(ProductResponseDto::getProduct_id)
@@ -55,6 +58,7 @@ public class OrderService {
     }
 
     @Transactional
+    @CachePut(cacheNames = "orderCache", key = "args[0]")
     public OrderResponseDto updateOrder(Long orderId, Long productId) {
         Order order = orderRepository.findById(orderId)
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.BAD_REQUEST, "Order not found"));
@@ -79,6 +83,7 @@ public class OrderService {
         return new OrderResponseDto(order);
     }
 
+    @Cacheable(cacheNames = "orderCache", key = "args[0]")
     public OrderResponseDto getOrder(Long orderId) {
         Order order = orderRepository.findById(orderId)
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.BAD_REQUEST, "Order not found"));

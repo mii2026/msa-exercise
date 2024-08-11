@@ -4,11 +4,12 @@ import com.sparta.msa_exam.order.core.domain.Order;
 import com.sparta.msa_exam.order.core.domain.OrderProduct;
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 @Data
-public class OrderResponseDto {
+public class OrderResponseDto implements Serializable {
     private Long order_id;
     private List<Long> product_ids;
 
