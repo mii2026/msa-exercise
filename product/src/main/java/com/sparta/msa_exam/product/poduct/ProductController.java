@@ -20,8 +20,8 @@ public class ProductController {
     }
 
     @GetMapping
-    public ResponseEntity<?> getProducts(Pageable pageable) {
-        return ResponseEntity.ok(productService.getProducts(pageable));
+    public ResponseEntity<?> getProducts() {
+        return ResponseEntity.ok(productService.getProducts());
     }
 
     @GetMapping("/{id}")
