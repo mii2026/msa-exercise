@@ -78,4 +78,11 @@ public class OrderService {
 
         return new OrderResponseDto(order);
     }
+
+    public OrderResponseDto getOrder(Long orderId) {
+        Order order = orderRepository.findById(orderId)
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.BAD_REQUEST, "Order not found"));
+
+        return new OrderResponseDto(order);
+    }
 }
