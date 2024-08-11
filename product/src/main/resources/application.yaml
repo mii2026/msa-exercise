@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: product-service
+  jpa:
+    hibernate:
+      ddl-auto: create
+    defer-datasource-initialization: true
+    show-sql: true
+
+server:
+  port: 19093
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:19090/eureka/
