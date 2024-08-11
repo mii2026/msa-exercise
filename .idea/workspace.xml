@@ -5,26 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c4463fb-9a63-4b37-97ab-6eab717939c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/sparta/msa_exam/auth/core/filter/HeaderFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/sparta/msa_exam/gateway/filter/HeaderFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/core/filter/HeaderFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/core/filter/HeaderFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/sparta/msa_exam/auth/user/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/order/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/poduct/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/sparta/msa_exam/auth/user/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/sparta/msa_exam/auth/user/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/sparta/msa_exam/gateway/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/sparta/msa_exam/gateway/filter/AuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/Order/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/order/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/Order/OrderProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/order/OrderProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/Order/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/order/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/Order/OrderRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/order/OrderRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/Order/OrderResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/order/OrderResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/Order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/order/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/Order/UpdateOderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/order/UpdateOderDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/config/CacheConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/core/config/CacheConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/core/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/core/domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/src/main/java/com/sparta/msa_exam/auth/user/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/src/main/java/com/sparta/msa_exam/auth/user/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/order/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/order/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/sparta/msa_exam/order/order/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/poduct/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/poduct/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/poduct/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/poduct/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/poduct/ProductResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/poduct/ProductResponseDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/poduct/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/sparta/msa_exam/product/poduct/ProductService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
