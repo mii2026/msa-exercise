@@ -1,6 +1,12 @@
 spring:
   application:
     name: order-service
+  jpa:
+    hibernate:
+      ddl-auto: create
+    defer-datasource-initialization: true
+    show-sql: true
+
 
 server:
   port: 19092
