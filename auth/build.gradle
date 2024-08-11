@@ -28,6 +28,9 @@ ext {
 }
 
 dependencies {
+	runtimeOnly 'org.hsqldb:hsqldb'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
 	implementation 'io.jsonwebtoken:jjwt:0.12.6'
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	implementation 'org.springframework.boot:spring-boot-starter-security'
