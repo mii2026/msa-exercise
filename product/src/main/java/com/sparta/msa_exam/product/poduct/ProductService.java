@@ -1,6 +1,6 @@
 package com.sparta.msa_exam.product.poduct;
 
-import com.sparta.msa_exam.product.core.Product;
+import com.sparta.msa_exam.product.core.domain.Product;
 import lombok.RequiredArgsConstructor;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;

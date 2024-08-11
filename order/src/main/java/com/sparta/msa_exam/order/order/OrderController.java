@@ -1,4 +1,4 @@
-package com.sparta.msa_exam.order.Order;
+package com.sparta.msa_exam.order.order;
 
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
@@ -11,14 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/order")
 public class OrderController {
 
-    @Value("${server.port}")
-    private String serverPort;
     private final OrderService orderService;
-
-    @ModelAttribute
-    public void setResponseHeader(HttpServletResponse response) {
-        response.setHeader("Server-Port", serverPort);
-    }
 
     @PostMapping
     public ResponseEntity<?> createOrder(@RequestBody OrderRequestDto requestDto) {
